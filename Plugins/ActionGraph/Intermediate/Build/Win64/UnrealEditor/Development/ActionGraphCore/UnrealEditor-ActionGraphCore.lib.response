@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ActionGraphCore.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\GameDev\Private\Aurora\Intermediate\Build\Win64\AuroraEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\GameDev\Private\Aurora\Plugins\ActionGraph\Intermediate\Build\Win64\UnrealEditor\Development\ActionGraphCore\ActionGraphCore.cpp.obj"
+"E:\GameDev\Private\Aurora\Plugins\ActionGraph\Intermediate\Build\Win64\UnrealEditor\Development\ActionGraphCore\Default.rc2.res"
+/OUT:"E:\GameDev\Private\Aurora\Plugins\ActionGraph\Intermediate\Build\Win64\UnrealEditor\Development\ActionGraphCore\UnrealEditor-ActionGraphCore.lib"

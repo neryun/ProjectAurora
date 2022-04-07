@@ -1,0 +1,87 @@
+/MANIFEST:NO
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:5000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x64"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"D:\GameDev\Private\Aurora\Intermediate\Build\Win64\AuroraEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"D:\GameDev\Private\Aurora\Plugins\ActionGraph\Intermediate\Build\Win64\UE4Editor\Development\ActionGraphEditor\ActionGraphEditor.cpp.obj"
+"D:\GameDev\Private\Aurora\Plugins\ActionGraph\Intermediate\Build\Win64\UE4Editor\Development\ActionGraphEditor\PCLaunch.rc.res"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\AnimGraph\UE4Editor-AnimGraph.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\AssetTools\UE4Editor-AssetTools.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\BlueprintGraph\UE4Editor-BlueprintGraph.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\ClassViewer\UE4Editor-ClassViewer.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\ContentBrowser\UE4Editor-ContentBrowser.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\EditorStyle\UE4Editor-EditorStyle.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\EditorWidgets\UE4Editor-EditorWidgets.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\GraphEditor\UE4Editor-GraphEditor.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\Kismet\UE4Editor-Kismet.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\KismetCompiler\UE4Editor-KismetCompiler.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\KismetWidgets\UE4Editor-KismetWidgets.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\MainFrame\UE4Editor-MainFrame.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\Projects\UE4Editor-Projects.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\PropertyEditor\UE4Editor-PropertyEditor.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\RHI\UE4Editor-RHI.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\SlateCore\UE4Editor-SlateCore.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\SourceControl\UE4Editor-SourceControl.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\UE4Editor-UnrealEd.lib"
+"D:\GameDev\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\WorkspaceMenuStructure\UE4Editor-WorkspaceMenuStructure.lib"
+/OUT:"D:\GameDev\Private\Aurora\Plugins\ActionGraph\Binaries\Win64\UE4Editor-ActionGraphEditor.dll"
+/IMPLIB:"D:\GameDev\Private\Aurora\Plugins\ActionGraph\Intermediate\Build\Win64\UE4Editor\Development\ActionGraphEditor\UE4Editor-ActionGraphEditor.suppressed.lib"
+/PDB:"D:\GameDev\Private\Aurora\Plugins\ActionGraph\Binaries\Win64\UE4Editor-ActionGraphEditor.pdb"
+/ignore:4078

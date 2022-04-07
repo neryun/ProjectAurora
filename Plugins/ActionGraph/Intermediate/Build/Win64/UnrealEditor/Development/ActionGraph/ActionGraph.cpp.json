@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "e:\\gamedev\\private\\aurora\\plugins\\actiongraph\\source\\actiongraph\\private\\actiongraph.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\gamedev\\private\\aurora\\intermediate\\build\\win64\\auroraeditor\\development\\core\\sharedpch.core.h.pch",
+        "Includes": [
+            "e:\\gamedev\\private\\aurora\\plugins\\actiongraph\\intermediate\\build\\win64\\unrealeditor\\development\\actiongraph\\definitions.actiongraph.h",
+            "e:\\gamedev\\private\\aurora\\plugins\\actiongraph\\source\\actiongraph\\public\\iactiongraph.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

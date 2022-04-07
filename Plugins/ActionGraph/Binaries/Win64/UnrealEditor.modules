@@ -1,0 +1,9 @@
+{
+	"BuildId": "19505902",
+	"Modules": 
+	{
+		"ActionGraph": "UnrealEditor-ActionGraph.dll",
+		"ActionGraphCore": "UnrealEditor-ActionGraphCore.dll",
+		"ActionGraphEditor": "UnrealEditor-ActionGraphEditor.dll"
+	}
+}
