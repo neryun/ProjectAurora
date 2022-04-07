@@ -6,7 +6,7 @@
 !/.git*
 
 # Do not ignore current project's `.uproject`.
-!/Game.uproject
+!/*.uproject
 
 # Do not ignore source, config and plugins dirs.
 !/Source/**
@@ -27,6 +27,13 @@
 # Binaries for Develompent Editor Version so Artists and Designer don't need to build a version
 !/Binaries/Win64/UE4Editor-Identity.dll
 !/Binaries/Win64/UE4Editor-Identity.pdb
+
+# Generated Folders for Builds and Developers
+**/Debug
+**/Intermediate
+**/Saved
+**/Collections
+**/Developers
 
 # OS/platform generated files.
 
