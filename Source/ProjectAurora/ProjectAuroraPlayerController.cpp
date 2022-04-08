@@ -1,12 +1,18 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "ProjectAuroraPlayerController.h"
+
+#include <concrt.h>
+
 #include "GameFramework/Pawn.h"
 #include "Blueprint/AIBlueprintHelperLibrary.h"
 #include "NiagaraSystem.h"
 #include "NiagaraFunctionLibrary.h"
 #include "ProjectAuroraCharacter.h"
+#include "BehaviorTree/BehaviorTreeTypes.h"
 #include "Engine/World.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "GameFramework/NavMovementComponent.h"
 
 AProjectAuroraPlayerController::AProjectAuroraPlayerController()
 {

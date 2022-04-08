@@ -5,11 +5,13 @@
 #include "Camera/CameraComponent.h"
 #include "Components/DecalComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "Components/SphereComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/PlayerController.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Materials/Material.h"
 #include "Engine/World.h"
+#include "Components/StaticMeshComponent.h"
 
 AProjectAuroraCharacter::AProjectAuroraCharacter()
 {
@@ -40,6 +42,15 @@ AProjectAuroraCharacter::AProjectAuroraCharacter()
 	TopDownCameraComponent->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
 	TopDownCameraComponent->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	// Create a StaticMesh...
+	MeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
+	MeshComponent->AttachToComponent(RootComponent,FAttachmentTransformRules::KeepRelativeTransform);
+	static ConstructorHelpers::FObjectFinder<UStaticMesh>Sphere(TEXT("StaticMesh'/Engine/BasicShapes/Sphere.Sphere'"));
+	if (Sphere.Succeeded())
+	{
+		MeshComponent->SetStaticMesh(Sphere.Object);
+	}
+	
 	// Activate ticking in order to update the cursor every frame.
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
