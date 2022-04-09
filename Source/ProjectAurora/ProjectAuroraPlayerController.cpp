@@ -74,7 +74,7 @@ void AProjectAuroraPlayerController::OnSetDestinationPressed()
 	// We flag that the input is being pressed
 	bInputPressed = true;
 	// Just in case the character was moving because of a previous short press we stop it
-	StopMovement();
+	//StopMovement();
 }
 
 void AProjectAuroraPlayerController::OnSetDestinationReleased()
